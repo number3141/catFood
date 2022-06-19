@@ -1,13 +1,17 @@
 @import url("./fonts.css");
 body, html {
   font-family: "Trebuchet MS Regular";
+  overflow-x: hidden;
 }
 
 .mainWrap {
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
+  padding: 0px 5px;
+  overflow-x: hidden;
   background: url("/image/bg.png");
+  background-attachment: fixed;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,6 +24,7 @@ body, html {
   color: #ffffff;
   font-weight: normal;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .mainCards {
@@ -177,4 +182,32 @@ body, html {
 }
 .clip-gray {
   border-color: #363636 transparent transparent #363636;
+}
+
+@media screen and (max-width: 1143px) {
+  .mainCards {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .mainCards__item:last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mainCards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .mainCards__item:last-child {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cardCat {
+    max-width: 290px;
+  }
 }/*# sourceMappingURL=style.css.map */
