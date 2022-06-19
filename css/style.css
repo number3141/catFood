@@ -1,0 +1,180 @@
+@import url("./fonts.css");
+body, html {
+  font-family: "Trebuchet MS Regular";
+}
+
+.mainWrap {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: url("/image/bg.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainHeader {
+  font-size: 36px;
+  font-family: "Exo2.0Thin";
+  color: #ffffff;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.mainCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+}
+
+.cardCat {
+  -webkit-clip-path: polygon(100% -50%, 100% 100%, -140% 100%);
+          clip-path: polygon(100% -50%, 100% 100%, -140% 100%);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 320px;
+  max-height: 480px;
+  width: 100%;
+  padding: 20px 45px 260px;
+  background-color: #f2f2f2;
+  border: 4px solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cardCat-blue {
+  border-color: #1698d9;
+}
+.cardCat-pink {
+  border-color: #d91667;
+}
+.cardCat-gray {
+  border-color: #b3b3b3;
+}
+.cardCat-disabled::before {
+  position: absolute;
+  display: block;
+  content: "";
+  z-index: 999;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+.cardCat__addTitle {
+  margin-bottom: 15px;
+}
+.cardCat__header {
+  margin-bottom: 15px;
+}
+.cardCat__composit {
+  margin-bottom: 40px;
+}
+.cardCat .foodAddTitle {
+  font-size: 16px;
+  font-family: "Trebuchet MS Regular";
+  color: #666666;
+  font-weight: normal;
+}
+.cardCat .foodAddTitle__text {
+  margin: 0;
+}
+.cardCat .foodHeader {
+  font-size: 48px;
+  font-family: "Trebuchet MS Bold";
+}
+.cardCat .foodHeader__title {
+  line-height: 50px;
+}
+.cardCat .foodHeader__subtitle {
+  font-size: 24px;
+}
+.cardCat .foodComposit {
+  font-size: 14px;
+  font-family: "Trebuchet MS Regular";
+  color: #666666;
+  line-height: 16px;
+}
+.cardCat .foodComposit__item {
+  margin: 0px auto;
+}
+.cardCat .foodImage {
+  position: absolute;
+  bottom: 0%;
+  left: -10%;
+  height: 260px;
+  width: 100%;
+  background: url("/image/cat.png");
+}
+.cardCat .foodCount {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.cardCat .foodCount .circleCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-family: "Trebuchet MS Regular";
+}
+.cardCat .foodCount .circleCount-blue {
+  background-color: #1698d9;
+}
+.cardCat .foodCount .circleCount-pink {
+  background-color: #d91667;
+}
+.cardCat .foodCount .circleCount-gray {
+  background-color: #b3b3b3;
+}
+.cardCat .foodCount .circleCount__weight {
+  margin-top: 5px;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.cardCat .foodCount .circleCount__measure {
+  font-size: 22px;
+}
+
+.cardSubtitle {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Trebuchet MS Regular";
+  color: #ffffff;
+}
+.cardSubtitle__link {
+  color: #1698d9;
+  text-decoration: none;
+  border-bottom: 2px dashed #1698d9;
+}
+.cardSubtitle__text-yellow {
+  color: #d1d152;
+}
+
+.clip {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -1px;
+  left: 0%;
+  border-style: solid;
+  border-width: 30px 30px 30px 30px;
+  transform: rotateY(4deg) rotateX(-12deg);
+}
+.clip-blue {
+  border-color: #1698d9 transparent transparent #1698d9;
+}
+.clip-pink {
+  border-color: #d91667 transparent transparent #d91667;
+}
+.clip-gray {
+  border-color: #363636 transparent transparent #363636;
+}/*# sourceMappingURL=style.css.map */

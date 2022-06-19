@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Exo2.0Thin';
+	src: url('/fonts/Exo2.0Thin/Exo20-Thin.eot');
+	src: url('/fonts/Exo2.0Thin/Exo20-Thin.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/Exo2.0Thin/Exo20-Thin.woff') format('woff'),
+	url('/fonts/Exo2.0Thin/Exo20-Thin.ttf') format('truetype');
+	font-weight: normal !important;
+	font-style: normal !important;
+}
+
+@font-face {
+	font-family: 'Trebuchet MS Regular';
+	src: url('/fonts/TrebuchetMSRegular/TrebuchetMS.eot');
+	src: url('/fonts/TrebuchetMSRegular/TrebuchetMS.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/TrebuchetMSRegular/TrebuchetMS.woff') format('woff'),
+	url('/fonts/TrebuchetMSRegular/TrebuchetMS.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Trebuchet MS Bold';
+	src: url('/fonts/TrebuchetMSBold/TrebuchetMS-Bold.eot');
+	src: url('/fonts/TrebuchetMSBold/TrebuchetMS-Bold.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/TrebuchetMSBold/TrebuchetMS-Bold.woff') format('woff'),
+	url('/fonts/TrebuchetMSBold/TrebuchetMS-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
