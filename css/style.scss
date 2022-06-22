@@ -1,4 +1,4 @@
-@import url('./fonts.css');
+@import url('./css/fonts.css');
 
 $header-font: 'Exo2.0Thin';
 $regular-font: 'Trebuchet MS Regular';
@@ -19,7 +19,7 @@ body, html{
   min-height: 100vh;
   padding: 0px 5px;
   overflow-x: hidden;
-  background: url('/image/bg.png');
+  background: url('../image/bg.webp');
   background-attachment: fixed;
   background-size: cover;
   display: flex;
@@ -119,7 +119,7 @@ body, html{
     left: -10%;
     height: 260px;
     width: 100%;
-    background: url('/image/cat.png');
+    background: url('../image/cat.webp');
   }
   & .foodCount{
     position: absolute;

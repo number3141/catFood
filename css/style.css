@@ -1,4 +1,4 @@
-@import url("./fonts.css");
+@import url("./css/fonts.css");
 body, html {
   font-family: "Trebuchet MS Regular";
   overflow-x: hidden;
@@ -9,7 +9,11 @@ body, html {
   min-height: 100vh;
   padding: 0px 5px;
   overflow-x: hidden;
+<<<<<<< Updated upstream
   background: url("../image/bg.png");
+=======
+  background: url("../image/bg.webp");
+>>>>>>> Stashed changes
   background-attachment: fixed;
   background-size: cover;
   display: flex;
@@ -111,7 +115,11 @@ body, html {
   left: -10%;
   height: 260px;
   width: 100%;
+<<<<<<< Updated upstream
   background: url("../image/cat.png");
+=======
+  background: url("../image/cat.webp");
+>>>>>>> Stashed changes
 }
 .cardCat .foodCount {
   position: absolute;
